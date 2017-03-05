@@ -62,7 +62,10 @@ h3{
     /* This is to be removed later */
 }
 
-
+.projects{
+    border-style: solid;
+    border-width: 2px ;
+}
 
 
 
