@@ -37,6 +37,11 @@ p{
     padding-left: 60px;
 }
 
+.Content{
+    padding-left: 60px;
+}
+
+/* need these need to be fixed */
 ul {
     list-style-type: none;
     margin: 0;
@@ -61,6 +66,8 @@ li a:hover:not(.active) {
     background-color: #555;
     color: white;
 }
+
+/* these nav above need to be  */
 h3{
     color: #ff0000; 
     /* This is to be removed later */
@@ -72,6 +79,10 @@ h3{
     border-width: 2px ;
         margin: auto;
         text-align: center;
+}
+
+.projecttitle{
+    background-color: #003380; 
 }
 
 
