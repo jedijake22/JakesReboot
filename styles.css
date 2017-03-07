@@ -6,16 +6,20 @@ img {
 body {
     text-align: center;
     font-family: "Arial";
+    background-color: #999999
 }
 
-h1{ /* the main title */
+.mainTitle{ /* the main title */
       color:  #999999; /* rgba(100, 100, 100, 100) */
       background-color: #003380; /*#00004d;  */
 }
 
-*{
-    background-color: #999999; /* i like this one #ccccb3*/
+
+.subTitle{
+    /* this is the subtytle  */
+    color: rgb(0, 0, 10);
 }
+
 p{
       font-family: Georgia, serif;
       padding-left: 80px;
