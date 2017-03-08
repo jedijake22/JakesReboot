@@ -4,7 +4,7 @@ img {
 
 
 body {
-    text-align: center;
+  text-align: center;
     font-family: "Arial";
     background-color: #999999
 }
@@ -22,7 +22,7 @@ body {
 
 p{
       font-family: Georgia, serif;
-      padding-left: 80px;
+
 }
 .navigation {
   height: auto;
