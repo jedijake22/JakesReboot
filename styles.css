@@ -1,9 +1,42 @@
-img {
+/* Navagation Bar */
+.navul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.navli a {
+    display: block;
+    color: #000;
+    padding: 8px 15px;
+    text-decoration: none;
+     border-style: solid;
+    border-width: 2px;
+}
+
+
+.navli a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+/* these nav above need to be  */
+
+h3{
+    color: #ff0000; 
+    /* This is to be removed later */
+}
+
+.homeimg {
     width: 500px;
 }
 
 
-body {
+body { /* this is the equlivlant to the * for changes to everything */
   text-align: center;
     font-family: "Arial";
     background-color: #999999
@@ -20,7 +53,7 @@ body {
     color: rgb(0, 0, 10);
 }
 
-p{
+p{  /* this should change to be more spisific */
       font-family: Georgia, serif;
 
 }
@@ -41,37 +74,6 @@ p{
     padding-left: 60px;
 }
 
-/* need these need to be fixed */
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 15%;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-}
-
-li a {
-    display: block;
-    color: #000;
-    padding: 8px 15px;
-    text-decoration: none;
-     border-style: solid;
-    border-width: 2px;
-}
-
-
-li a:hover:not(.active) {
-    background-color: #555;
-    color: white;
-}
-
-/* these nav above need to be  */
-h3{
-    color: #ff0000; 
-    /* This is to be removed later */
-}
 
 .projects{
     border-style: solid;
