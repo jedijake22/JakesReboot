@@ -33,6 +33,11 @@ h3{
 
 .homeimg {
     width: 500px;
+   border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-width: 10px ; 
 }
 
 
@@ -72,6 +77,10 @@ p{  /* this should change to be more spisific */
 
 .Content{
     padding-left: 60px;
+}
+
+.aboutContent{
+  margin-left: 200Px;
 }
 
 
